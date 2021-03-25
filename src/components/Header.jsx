@@ -8,6 +8,8 @@ import Button from './Button';
 function Header() {
   const { totalPrice, totalCount } = useSelector(({ cart }) => cart);
 
+  // Comments
+
   return (
     <div className="header">
       <div className="container">
@@ -19,6 +21,7 @@ function Header() {
               <p>самая вкусная пицца во вселенной</p>
             </div>
           </div>
+  
         </Link>
 
         <div className="header__cart">
